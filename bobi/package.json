@@ -1,0 +1,26 @@
+{
+  "name": "bobi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express-generator": "^4.15.5",
+    "material-ui": "^0.20.0",
+    "passport": "^0.4.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start-backend": "cd react-backend && yarn start"
+  },
+  "description": "bobi react app",
+  "main": "index.js",
+  "repository": "https://github.com/elliottktan/bobi.git",
+  "author": "Elliott Tan",
+  "license": "MIT"
+}
