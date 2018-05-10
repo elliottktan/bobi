@@ -6,12 +6,19 @@
     "react-scripts": "^1.1.1"
   },
   "scripts": {
-    "start": "cd react-frontend && yarn start",
-    "start-backend": "cd react-backend && yarn start"
+    "build": "webpack --config ./webpack-backend.js",
+    "start": "node ./dist/bundle-backend.js"
   },
   "description": "bobi react app",
   "main": "index.js",
   "repository": "https://github.com/elliottktan/bobi.git",
   "author": "Elliott Tan",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-preset-env": "^1.6.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-cli": "^2.1.3",
+    "webpack-livereload-plugin": "^2.1.1"
+  }
 }
